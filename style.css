@@ -1,6 +1,6 @@
 body {
     font-family:'Times New Roman', Times, serif;
-    font-size: 12pt; 
+    font-size: 16pt; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,10 +14,24 @@ body {
 }
 
 #logo {
-    height: 9rem;
+    height: 12rem;
     margin: 5px 0px;
     float: left;    
 }
+
+span {
+    font-size: 18pt;
+    font-weight:bold;  
+}
+
+a {
+    color: black;
+}
+
+
+
+
+
 
 .container {
     display: flex;
@@ -27,11 +41,12 @@ body {
 .details {
     min-width: 60%;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .contact {
     min-width: 40%;
     text-align: right;
+    align-self:flex-end;
 }
 
