@@ -28,9 +28,18 @@ a {
     color: black;
 }
 
+h1 {
+    margin: 0;
+}
 
+h1 > hr {
+    margin: 0;
+}
 
-
+#A4.container {
+    flex-direction: column;
+    gap: 1%
+}
 
 
 .container {
