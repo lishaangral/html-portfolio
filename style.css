@@ -1,6 +1,6 @@
 body {
-    font-family:'Times New Roman', Times, serif;
-    font-size: 16pt; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14pt; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,56 +58,66 @@ p {
 
 #A4.container {
     flex-direction: column;
-    gap: 1%
+    justify-content: flex-start;
+    gap: 1%;
 }
 
 
 .container {
     display: flex;
     justify-content: space-between;
+    
 }
 
 .details {
     min-width: 60%;
     display: flex;
     align-items: center;
+    font-size: 16pt;
 }
 
 .contact {
     min-width: 40%;
     text-align: right;
     align-self: center;
+    font-size: 16pt;
 }
 
 
 
-.education > ul {
+ul, .level2 {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
 }
 
-.education > ul > li {
+ul > li {
     display:flex;
     justify-content: space-between;
 }
 
 .right {
     text-align: right;
-    font-size: 14pt;
 }
 
 .italics {
-    font-style: italic;
+   font-style: italic;
 }
 
 p .italics {
     padding: 1rem;
-    font-size: 14pt;
 }
 .bold {
     font-weight: bold;
+    font-size: 16pt;
 }
+
+
+
+.level3 {
+    padding-left: 2rem;
+}
+
 
 
 
