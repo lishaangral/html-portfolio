@@ -6,11 +6,12 @@ body {
     align-items: center;
 }
 
+
 #A4 {
     height: 1754px;
     width: 1240px;
-    padding: 2rem 3rem;
-    border: 1px solid black;
+    padding: 2rem 4rem;
+    border: 2px solid lightgray;
 }
 
 #logo {
@@ -19,8 +20,8 @@ body {
     float: left;    
 }
 
-span {
-    font-size: 18pt;
+span#name {
+    font-size: 20pt;
     font-weight:bold;  
 }
 
@@ -32,9 +33,20 @@ h1 {
     margin: 0;
 }
 
-h1 > hr {
+hr {
     margin: 0;
 }
+
+h2, h1{
+    margin: 0;
+    font-variant: small-caps;
+}
+
+
+
+
+
+
 
 #A4.container {
     flex-direction: column;
@@ -58,4 +70,8 @@ h1 > hr {
     text-align: right;
     align-self:flex-end;
 }
+
+
+
+
 
