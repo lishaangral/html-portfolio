@@ -15,9 +15,9 @@ body {
 }
 
 #logo {
-    height: 12rem;
-    margin: 5px 0px;
-    float: left;    
+    height: 11rem;
+    margin: 0px;
+    border-radius: 50%;
 }
 
 span#name {
@@ -44,14 +44,12 @@ h2, h1{
 
 ul {
     margin: 0;
-    padding-left:1rem;
+    padding: 0;
 }
 
-.right {
-    list-style: none;
-    text-align: right;
+p {
+    margin: 0;
     padding: 0;
-
 }
 
 
@@ -72,14 +70,52 @@ ul {
 .details {
     min-width: 60%;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .contact {
     min-width: 40%;
     text-align: right;
-    align-self:flex-end;
+    align-self: center;
 }
+
+
+
+.education > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.education > ul > li {
+    display:flex;
+    justify-content: space-between;
+}
+
+.right {
+    text-align: right;
+    font-size: 14pt;
+}
+
+.italics {
+    font-style: italic;
+}
+
+p .italics {
+    padding: 1rem;
+    font-size: 14pt;
+}
+.bold {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
 
 
 
