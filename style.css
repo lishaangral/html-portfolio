@@ -1,5 +1,5 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", serif;
     font-size: 14pt; 
     display: flex;
     justify-content: center;
@@ -58,7 +58,7 @@ p {
 
 #A4.container {
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     gap: 1%;
 }
 
