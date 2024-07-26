@@ -42,7 +42,17 @@ h2, h1{
     font-variant: small-caps;
 }
 
+ul {
+    margin: 0;
+    padding-left:1rem;
+}
 
+.right {
+    list-style: none;
+    text-align: right;
+    padding: 0;
+
+}
 
 
 
@@ -72,6 +82,14 @@ h2, h1{
 }
 
 
+
+
+.nobullet {
+    list-style:none;
+    margin: 0;
+    padding-left: 1rem;
+    
+}
 
 
 
