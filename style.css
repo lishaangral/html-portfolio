@@ -29,10 +29,6 @@ a {
     color: black;
 }
 
-h1 {
-    margin: 0;
-}
-
 hr {
     margin: 0;
 }
@@ -40,6 +36,10 @@ hr {
 h2, h1{
     margin: 0;
     font-variant: small-caps;
+}
+
+h2 {  
+    font-size:x-large;
 }
 
 ul {
@@ -105,17 +105,15 @@ ul > li {
 }
 
 p .italics {
-    padding: 1rem;
+    padding: 0.5rem;
 }
 .bold {
     font-weight: bold;
-    font-size: 16pt;
+    font-size: 14pt;
 }
 
-
-
 .level3 {
-    padding-left: 2rem;
+    padding-left: 1.5rem;
 }
 
 
@@ -131,10 +129,7 @@ p .italics {
 
 
 .nobullet {
-    list-style:none;
-    margin: 0;
-    padding-left: 1rem;
-    
+    padding-left: 0.5rem;
 }
 
 
