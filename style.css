@@ -6,12 +6,9 @@ body {
     align-items: center;
 }
 
-
-#A4 {
-    height: 1754px;
-    width: 1240px;
-    padding: 2rem 4rem;
-    border: 2px solid lightgray;
+@page {
+    size: A4;
+    margin: 0;
 }
 
 #logo {
@@ -21,7 +18,7 @@ body {
 }
 
 span#name {
-    font-size: 20pt;
+    font-size: 18pt;
     font-weight:bold;  
 }
 
@@ -58,22 +55,22 @@ p {
 
 #A4.container {
     flex-direction: column;
-    justify-content: space-evenly;
-    gap: 1%;
+    gap:1rem;
+    padding: 2rem 4rem;
+    border: 2px solid lightgray;
 }
 
 
 .container {
     display: flex;
-    justify-content: space-between;
-    
+    justify-content:space-between;
 }
 
 .details {
     min-width: 60%;
     display: flex;
     align-items: center;
-    font-size: 16pt;
+    font-size: 15pt;
 }
 
 .contact {
