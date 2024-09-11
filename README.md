@@ -28,6 +28,7 @@ You can view the live version of the portfolio here:
 ## Technologies Used
 - **HTML5**: Structure of the website
 - **CSS3**: Styling and responsive design
+- **GitHub Pages**: For hosting the project live
 
 ## Setup and Installation
 1. Clone the repository to your local machine:
