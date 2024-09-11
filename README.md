@@ -1,7 +1,7 @@
 
 # Resume Template
 
-This is a personal portfolio website that showcases your skills, projects, and contact information. It is built using HTML, CSS, and JavaScript to create a clean and professional online presence.
+This is a personal portfolio website that showcases your skills, projects, and contact information. It is built using HTML and CSS tools to create a clean and professional online presence.
 
 ![HTML Portfolio](./assets/images/Resume%20Template.png)
 
@@ -28,7 +28,6 @@ You can view the live version of the portfolio here:
 ## Technologies Used
 - **HTML5**: Structure of the website
 - **CSS3**: Styling and responsive design
-- **JavaScript**: Adds interactivity (optional based on features like form validation or animations)
 
 ## Setup and Installation
 1. Clone the repository to your local machine:
@@ -45,7 +44,7 @@ You can view the live version of the portfolio here:
     ```
 
 ## Usage
-- Edit the `index.html`, `styles.css`, or JavaScript files to customize the portfolio with your own information, projects, and links.
+- Edit the `index.html`, `styles.css`, or include JavaScript files to customize the portfolio with your own information, projects, and links.
 - Add your own images and update the projects section to showcase your work.
 
 ## Contributing
